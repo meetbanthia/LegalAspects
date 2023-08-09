@@ -1,0 +1,2 @@
+name: word2vec-custom
+path: word_vectors/jgs.json.txt.w2v

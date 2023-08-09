@@ -1,0 +1,15 @@
+embeddings:
+  name: word2vec-custom
+  path: word_vectors/reviews_Cell_Phones_and_Accessories_5.json.txt.w2v
+optimizer:
+  name: adam
+data:
+  path: jgs.json.txt
+model:
+  batch_size: 50
+  ortho_reg: 0.2
+  aspects_number: 35
+  epochs: 1
+  negative_samples: 5
+  max_len: 201
+  log_progress_steps: 1000
