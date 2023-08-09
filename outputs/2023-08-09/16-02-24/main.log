@@ -1,0 +1,4 @@
+[2023-08-09 16:02:24,833][gensim.utils][INFO] - loading Word2Vec object from /Users/meetbanthia/Desktop/halelab/LegalAspects/word_vectors/jgs.json.txt.w2v
+[2023-08-09 16:02:24,839][gensim.utils][INFO] - loading wv recursively from /Users/meetbanthia/Desktop/halelab/LegalAspects/word_vectors/jgs.json.txt.w2v.wv.* with mmap=None
+[2023-08-09 16:02:24,839][gensim.utils][INFO] - setting ignored attribute cum_table to None
+[2023-08-09 16:02:24,882][gensim.utils][INFO] - Word2Vec lifecycle event {'fname': '/Users/meetbanthia/Desktop/halelab/LegalAspects/word_vectors/jgs.json.txt.w2v', 'datetime': '2023-08-09T16:02:24.866279', 'gensim': '4.3.1', 'python': '3.11.3 (main, Apr 19 2023, 18:49:55) [Clang 14.0.6 ]', 'platform': 'macOS-12.3.1-arm64-arm-64bit', 'event': 'loaded'}

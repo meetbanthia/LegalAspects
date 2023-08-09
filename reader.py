@@ -97,7 +97,7 @@ def get_centroids(w2v_model, aspects_count):
     for k in w2v_model.wv.key_to_index:
         m.append(w2v_model.wv[k])
 
-    m = np.matrix(m)
+    m = np.asarray(m)
     km.fit(m)
     clusters = km.cluster_centers_
 
